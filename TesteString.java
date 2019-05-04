@@ -14,7 +14,8 @@ public class TesteString {
 		 */
 		
 
-		// String outro = new String("Alura"); = Má prática de programação
+		// String outro = new String("Alura"); = Má é considerado prática de programação pois conseme mais memória
+		// mais detalhes no link: https://pt.stackoverflow.com/questions/19098/desempenho-na-criação-de-strings-em-java
 
 		String nome = "Mario";
 		System.out.println("Nome criado: " + nome);
