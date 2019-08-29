@@ -6,7 +6,7 @@ public class TesteString {
 		
 		
 		/**
-		 * Classe criada para ajudar no entendimento de mÈtodos fundamentais da Classe String
+		 * Classe criada para ajudar no entendimento de m√©todos fundamentais da Classe String
 		 * 
 		 * :)
 		 * 
@@ -14,8 +14,8 @@ public class TesteString {
 		 */
 		
 
-		// String outro = new String("Alura"); = … considerado m· pr·tica de programaÁ„o pois consome mais memÛria
-		// mais detalhes no link: https://pt.stackoverflow.com/questions/19098/desempenho-na-criaÁ„o-de-strings-em-java
+		// String outro = new String("Alura"); = √â considerado m√° pr√°tica de programa√ß√£o pois consome mais mem√≥ria
+		// mais detalhes no link: https://pt.stackoverflow.com/questions/19098/desempenho-na-cria√ß√£o-de-strings-em-java
 
 		String nome = "Mario";
 		System.out.println("Nome criado: " + nome);
@@ -36,18 +36,18 @@ public class TesteString {
 		String novoUpper = nome.toUpperCase();
 		System.out.println(novoUpper);
 
-		// chatAt
-		// Retorna o char na posiÁ„o n - posiÁ„o comeÁa em 0 assim como nos Arrays
+		// charAt
+		// Retorna o char na posi√ß√£o n - posi√ß√£o come√ßa em 0 assim como nos Arrays
 		System.out.println("Executando charAt:");
 		char r = nome.charAt(3);
 		System.out.println(r);
 
 		// indexOf
 		/*
-		 * Retorna a posiÁ„o de um caracter encontrado dentro de uma String Uma
-		 * sequencia de String tambÈm pode ser usado como parametro Caso n„o seja
-		 * encontrado um caracter ou uma sequencia È retornado -1 Existe o lastIndexOf()
-		 * que devolve a ultima posiÁ„o que o caracter ou sequencia foi encontrado
+		 * Retorna a posi√ß√£o de um caracter encontrado dentro de uma String Uma
+		 * sequencia de String tamb√©m pode ser usado como parametro Caso n√£o seja
+		 * encontrado um caracter ou uma sequencia √© retornado -1 Existe o lastIndexOf()
+		 * que devolve a ultima posi√ß√£o que o caracter ou sequencia foi encontrado
 		 */
 		System.out.println("Executando indexOf:");
 		int posicao = nome.indexOf("rio");
@@ -64,7 +64,7 @@ public class TesteString {
 		System.out.println(sub);
 
 		// trim
-		// trim() Retorna uma cÛpia da string, com espaÁos em branco iniciais e finais
+		// trim() Retorna uma c√≥pia da string, com espa√ßos em branco iniciais e finais
 		// omitidos.
 		System.out.println("Executando trim:");
 		String nomeNovo = "          Alura            ";
@@ -74,19 +74,19 @@ public class TesteString {
 		System.out.println(alura);
 
 		// isEmpty
-		// Verifica se a String est· vazia
+		// Verifica se a String est√° vazia
 		System.out.println("Executando o isEmpty:");
 		String nomeVazio = "";
 		if (nomeVazio.isEmpty()) {
-			System.out.println("O nome est· vazio.");
+			System.out.println("O nome est√° vazio.");
 		} else {
-			System.out.println("O nome n„o est· vazio");
+			System.out.println("O nome n√£o est√° vazio");
 		}
 
 		// length
 		// Retorna o tamanho da String assim como o .size() das collections
 		System.out.println("Executando o length");
-		System.out.println("O nome M·rio possui: " + nome.length() + " letras");
+		System.out.println("O nome M√°rio possui: " + nome.length() + " letras");
 		for (int i = 0; i < nome.length(); i++) {
 			System.out.println(nome.charAt(i));
 		}
@@ -97,14 +97,14 @@ public class TesteString {
 		System.out.println("No nome Mario, existe as seguintes letras: ario?");
 		if (nome.contains("ario")) {
 			System.out.println("Sim possui.");
-		} else {System.out.println("N„o possui.");}
+		} else {System.out.println("N√£o possui.");}
 
 		// split
 		/*
-		 * Separa uma String retornando um vetor; O critÈrio de separaÁ„o pode ser tanto
-		 * um char quanto uma palavra completa; O segundo parametro È a quantidade de
-		 * "pedaÁos" que vocÍ deseja separar a String; Caso essa quantidade de pedaÁos
-		 * for alcanÁadas a String n„o ser· mais separada
+		 * Separa uma String retornando um vetor; O crit√©rio de separa√ß√£o pode ser tanto
+		 * um char quanto uma palavra completa; O segundo parametro √© a quantidade de
+		 * "peda√ßos" que voc√™ deseja separar a String; Caso essa quantidade de peda√ßos
+		 * for alcan√ßadas a String n√£o ser√° mais separada
 		 */
 		System.out.println("Executando split:");
 		String nomeCompleto = "Gustavo de Oliveira Bossolani";
